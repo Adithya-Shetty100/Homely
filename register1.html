@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="register1.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Oxanium&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Oxanium&display=swap" rel="stylesheet">
+</head>
+<body>
+	
+    <nav id="header"  class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top" >
+        <!-- navbar-light fixed-top --> 
+     <!--    fixed top fixes navbar while scrolling and ensures that below image comes into the navabar, do 
+        this by trying with and without fixed-top -->
+
+        <!-- <div class="container"> -->
+                <a  class="navbar-brand" href="#" ><i class="fas fa-utensils" id="lg"></i> <span id="logo"> HOMELY</span> </a>
+            <!-- remove href from <a> tag to prevent hover effect -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ml-4">
+                    <li class="nav-item " >
+                    <a class="nav-link"  href="home1.html"> Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="order.html">Order</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="register1.html"> Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a  id="cart" href=""><i class="fas fa-shopping-cart mr-2"></i>Cart</a></li>
+                    <li><a  id="login" href="login1.html"><i class="fas fa-users"></i>Login</a></li>
+                 </ul>
+            </div>
+        <!-- </div> -->
+      </nav> 
+
+
+       <div id="jumbo1" class="jumbotron text-left">
+        <h1 id="start" class="display-4  mt-0"> Start Your Own </h1>
+        <h1 class="display-4  mt-0"> Business On HOMELY!!</h1>
+       
+      
+        <div class="container">
+            <a class="btn btn-primary btn-md "  href="#rt" > BECOME A COOK </a>
+        </div>
+      </div>
+
+
+    <div class="container">
+        <h1 class="text-center display-4">How It Works? </h1>
+        <!-- <div class="row justify-content-between"> -->
+          <div class="row border justify-content-between align-items-center mt-4">
+            <div class="col-sm-5  "> 
+                <!-- for xs( extra small enter col-6 as col-xs-6 does not exist) -->
+             <h3>List Products on Homely</h3>
+             <p>Our team helps you list your delicacies on Homely</p>
+            </div>
+
+             <div class="col-sm-5  mt-2 mt-sm-0"> 
+                <h3>Start Receiving Orders</h3>
+                <p>As your products go live on the website, you will start receiving orders immediately.</p>
+          </div>
+        </div>
+
+        <div class="row border justify-content-between align-items-center mt-4">
+            <div class="col-sm-5  "> 
+                <!-- for xs( extra small enter col-6 as col-xs-6 does not exist) -->
+                <h3>Delivery Handled by HOMELY</h3>
+                <p>We offer quick and convenient pickup across the city through our logistics partners</p>
+            </div>
+
+             <div class="col-sm-5  mt-2 mt-sm-0"> 
+                <h3>Receive Earnings</h3>
+                <p>Payments are directly deposited to your bank account within a few hours of delivering your orders </p>
+          </div>
+        </div>
+    </div>
+  <br/>
+  <br/>
+  <br/>
+    
+<div class="container"> 
+    <h1 id="rt" class=" display-4">Register</h1>
+	<form>
+        First Name:<input class="first" type="text" name="first" required="required">Last Name: <input type="text" name="last" required="required"><br/>
+        <br/>
+		<div class="radio">
+			<input type="radio" name="gender" value="Male"> Male
+			<input type="radio" name="gender" value="Female">Female
+			<input type="radio" name="gender" value="Other">Other
+		</div>
+        <br/>
+        
+		<label for="1">Email: </label>
+		<input id="1" type="email" name="email" required="required">
+		<label>
+			Password: <input type="password" name="pass" pattern=".{5,10}" required title=" Please dont be ignorant 5-10 characers">
+		</label>
+        <br/>
+        <br/>
+        <div>
+            Location: <input type="text" name="location">
+            City: <input type="text" name="location">
+            
+        </div>
+        <br/>
+        <div>
+                Aadhar Card Id: <input type="text" name="adhar">
+                
+                
+            </div>
+            <br/>
+		<div>Birthday:
+			<select name="month">
+				<option checked="checked">Month</option>
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>Apr</option>
+				<option>May</option>
+				<option>Aug</option>
+				<option>Oct</option>
+				<option>Nov</option>
+				<option>Dec</option>
+			</select>
+			<select name="day">
+				<option checked="checked">Day</option>
+				<option>2</option>
+				<option>6</option>
+				<option>11</option>
+				<option>13</option>
+				<option>15</option>
+				<option>21</option>
+				<option>28</option>
+				<option>31</option>
+			</select>
+			<select name="Year">
+				<option checked="checked">Year</option>
+				<option>1965</option>
+				<option>1967</option>
+				<option>1972</option>
+				<option>1983</option>
+				<option>1990</option>
+				<option>1998</option>
+				<option>2000</option>
+				<option>2016</option>
+            </select>
+            
+        </div>
+        <br/>
+        <div>
+            When you are active:
+            <select name="Time">
+                <option checked="checked"> </option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option> 8</option>
+				<option>9</option>
+				<option>10</option>
+				<option> 11</option>
+				<option>12</option>
+            </select>
+
+            <select name="t1">
+                <option checked="checked"> </option>
+                <option>AM</option>
+                <option>PM</option>
+                
+            </select>
+
+            to
+            <select name="Time1">
+            <option checked="checked"> </option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option> 8</option>
+            <option>9</option>
+            <option>10</option>
+            <option> 11</option>
+            <option>12</option>
+        </select>
+
+        <select name="t2">
+            <option checked="checked"> </option>
+            <option>AM</option>
+            <option>PM</option>
+        
+        </select>
+    
+        </div>
+    </br>
+        <div>
+                <input class="publish btn-warning" type="submit" value="Publish your menu ">
+            
+        </div>
+        
+        <div id="adi">
+        <textarea  class="d-none" name="menu" cols="50" row="6" placeholder="Enter your menu...."></textarea>
+    </div>
+       
+    <div id="adi1">
+       <p class="d-none">Price: <input type="number" name="price"></p> 
+    </div>
+        <br/>
+        <br/>
+		<label> I agree to the terms and conditions: <input type="checkbox" name="check" value="agreed"> </label>
+        <br/>
+        <br/>
+		<input class="sub btn-success" type="submit" value="Submit">
+
+	</form>
+</div>
+<br/>
+<br/>
+
+
+
+
+
+		
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="register.js"></script> 
+      
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

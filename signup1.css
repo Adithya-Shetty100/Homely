@@ -1,0 +1,17 @@
+
+body{font-family: 'Source Sans Pro', sans-serif;
+	width:70%;
+	border:15px solid #bdc3c7;
+	margin:25px auto;
+	/*max-width: 700px*/
+	padding:10px;}
+
+h4{color: #3498db;letter-spacing:0.3rem;text-transform: uppercase}
+h3{text-transform: capitalize;color: #2c3e50}
+.req{width: 300px;height: 50px;margin-top: 1.5rem;border: 1px dashed #960028;;}
+.head{text-align: center;}
+.term{color:#960028;}
+.head{font-family: 'Girassol', cursive;font-size: 2rem;
+color:#960028;}
+form{color:#960028}
+.head{border:3px solid #960028;padding: 8px ;padding-left: 14px}

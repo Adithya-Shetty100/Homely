@@ -1,0 +1,29 @@
+#cart{
+    color: white; padding-right: 1.5rem;text-decoration: none
+    }
+    
+    #login{
+    color: white;text-decoration: none
+    }
+    
+    /*#jumbo{background:  url("https://i.pinimg.com/originals/46/3a/24/463a24ddfd31a56a2fc7da1e6b215c54.jpg") 
+         center center/cover no-repeat;
+         padding-bottom: 16rem
+          }*/
+    
+     #jumbo1{ background-color: #ff79b0;
+        padding-bottom: 14rem
+     }
+
+     h1{font-family: 'Oxanium' ;}
+
+     
+    #logo{
+        font-family: 'Lobster' ;color: yellow;font-size: 2rem;
+    }
+    #lg{
+        color: yellow;font-size: 2rem;
+    }
+   #start{
+       padding-top: 2rem;
+   }
