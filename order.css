@@ -1,0 +1,35 @@
+#cart{
+    color: white; padding-right: 1.5rem;text-decoration: none
+    }
+    
+    #login{
+    color: white;text-decoration: none
+    }
+
+    .abt{
+        font-size: 1.5rem;
+    }
+    #jumbo1{ background-image: linear-gradient(90deg,#ff79b0,#c67cd7) ;
+        padding-bottom: 8rem; 
+     }
+
+     img{
+        
+         height: 300px;}
+    .card-text{
+        font-size: 1.5rem; 
+    }
+   p.card-text:hover{
+        background- color:"red"
+    }
+
+    
+    #logo{
+        font-family: 'Lobster' ;color: yellow;font-size: 2rem;
+    }
+    #lg{
+        color: yellow;font-size: 2rem;
+    }
+   #start{
+       padding-top: 1rem;
+   }

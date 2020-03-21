@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="order.css">
+    <title>Order</title>
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Lobster|Oxanium&display=swap" rel="stylesheet">
+</head>
+<body>
+        <nav id="header"  class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top" >
+                <!-- navbar-light fixed-top --> 
+             <!--    fixed top fixes navbar while scrolling and ensures that below image comes into the navabar, do 
+                this by trying with and without fixed-top -->
+        
+                <!-- <div class="container"> -->
+                        <a  class="navbar-brand" href="#" ><i class="fas fa-utensils" id="lg"></i> <span id="logo"> HOMELY</span> </a>
+                    <!-- remove href from <a> tag to prevent hover effect -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto ml-4">
+                            <li class="nav-item " >
+                            <a class="nav-link"  href="home1.html"> Home</a>
+                            </li>
+                            <li class="nav-item active">
+                            <a class="nav-link" href="order.html">Order</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="register1.html"> Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+        
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a  id="cart" href=""><i class="fas fa-shopping-cart mr-2"></i>Cart</a></li>
+                            <li><a  id="login" href="login1.html"><i class="fas fa-users"></i>Login</a></li>
+                         </ul>
+                    </div>
+                <!-- </div> -->
+              </nav> 
+
+            
+              <div id="jumbo1" class="jumbotron text-left">
+                    <h1 id="start" class="display-4  mt-0"> About Indian Cuisine</h1>
+                    <p class="abt">Indian cuisine consists of a wide variety of regional and traditional cuisines native to the Indian subcontinent. 
+                        Given the range of diversity in soil type, climate, culture, ethnic groups, and occupations, these cuisines vary substantially from each other 
+                        and use locally available spices, herbs, vegetables, and fruits. Indian food is also heavily influenced by religion,
+                         in particular Hinduism, cultural choices and traditions.
+                         The cuisine is also influenced by centuries of Islamic rule, particularly the Mughal rule. Samosas and pilafs can be regarded as examples.</p>
+                 
+                  </div>
+            
+                  <div class="container">
+                  <!-- cuisines -->
+                  <h1 class=" display-5"> CUISINES </h1>
+                  <div class="row border justify-content-between align-items-center mt-4">
+                    <div class="col-sm-5 mt-2 mt-sm-0"> 
+                        <!-- for xs( extra small enter col-6 as col-xs-6 does not exist) -->
+                        <div class="card" >
+                                <img  class="card-img-top" src="https://i.pinimg.com/originals/22/0e/2c/220e2cb270e24151c2b3e2f55d999d5b.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <p class="card-text"><a href="north.html" class="card-link"> NORTH INDIAN</a>   </p>
+                                </div>
+                              </div> 
+                    </div>
+      
+                     <div class="col-sm-5  mt-2 mt-sm-0"> 
+                            <div class="card" >
+                                    <img class="card-img-top" src="https://miro.medium.com/max/2400/1*InlgltnGNwj7W93dJ_oQ_g.jpeg" alt="Card image cap">
+                                    <div class="card-body">
+                                      <p class="card-text"><a href="south.html" class="card-link"> SOUTH INDIAN</a> </p>
+                                    </div>
+                                  </div>
+      
+                       </div>
+                </div>
+                <br/>
+                <br/>
+             
+                <textarea name="menu" cols="100" row="40" required="required" placeholder="Enter your dietary preferances...."></textarea>
+                <br/>
+                <button id="save" type="button" class="btn-lg btn-danger"> Save</button>
+            
+             
+            </div>
+           
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <script>
+            var t= document.querySelector("#save");
+            t.addEventListener("click", function(){
+                alert("You saved your preferances");
+            }
+            );
+            </script>
+</body>
+</html>
